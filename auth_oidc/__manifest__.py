@@ -4,16 +4,11 @@
 
 {
     'name': 'Authentication OpenID Connect',
-    'version': '10.0.1.0.0',
+    'version': '12.0.1.0.0',
     'license': 'AGPL-3',
     'author': 'ICTSTUDIO, André Schenkels',
     'website': 'https://www.ictstudio.eu',
-    'description': """
-Allow users to login through OpenID Connect Provider.
-=====================================================
-- Keycloak with ClientID and Secret + Implicit Flow
-
-""",
+    'summary': 'Allow users to login through an OpenID Connect Provider.',
     'external_dependencies': {'python': [
         'jose',
         'cryptography'
@@ -22,5 +17,4 @@ Allow users to login through OpenID Connect Provider.
     'data': [
         'views/auth_oauth_provider.xml',
     ],
-    'installable': False,
 }
