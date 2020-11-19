@@ -9,7 +9,8 @@ import re
 from urllib.request import urlopen
 
 from jose import jwt
-from openerp import api, fields, models
+
+from odoo import api, fields, models
 
 _logger = logging.getLogger(__name__)
 
